@@ -1,0 +1,75 @@
+Decision-maserver creation -nodejs + Express
+
+Basic commands
+--------------
+
+1)Creating package.json -npm init
+2)Creating node modules -npm i express (insatall express)
+3)install nodemon -npm install -g nodemon
+4)run - nodemon index.js
+
+
+Basic steps
+------------
+
+1)Creating a folder (Bankserver)
+2)Creatin package.json file
+3)install express
+4)import express inside the index.js file
+5)Create an app using express
+6)Setip the port number
+7)resolving htp request king skills
+
+8)HTTP Response code 
+   1xx-information
+   2xx-successful
+   3xx-redirection
+   4xx-client error
+   5xx-server error
+
+9)JWT Token
+install jwt token - npm i jsonwebtoken
+to generate token - sign()
+
+
+10) middleware
+it comes in the middle of the request and response cyle 0of thr nodejs execution
+    req,res,next
+
+    1)Application specific middleware- for entire application
+    2)Router specific middleware- for token verification -verify()
+    
+
+
+
+
+
+
+
+12)Database integration
+      1)install mongoose - npm i mongoose
+
+13)Asynchronous function resolving - promise
+   
+   1)Resolve state - .then()
+   2)Reject state - catch()
+
+14)CORS - Cross origin resource sharing
+  
+   install cors- npm i cors
+
+   port 4200(Angular) ----request----> 3000(node)(recieve)
+
+15) Asynchronous call - RxJs - (Reactive Extension for JavaScript)
+
+JS - promise
+
+TS - RxJs(library)
+
+ 1)Observable 
+   a)resolved - subscribe()
+   b)reject - catch()
+
+
+
+
